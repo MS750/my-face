@@ -1,0 +1,251 @@
+body{
+    background-color: lightgray;
+}
+*{
+    box-sizing: border-box ;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+    padding: 5px 5%;
+}
+.logo{
+    width: 160px;
+    margin-right: 45px;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.seach-box{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding:  15px;
+}
+.seach-box img{
+    width: 18px;
+}
+.seach-box img{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #41bd51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+.left-sidebar{
+        flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+.right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #626262;
+}
+.main-content{
+    flex-basis: 47%;
+}
+.imp-links a, .shortcut a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color:#626262;
+    width: fit-content;
+}
+.imp-links a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.imp-links a:last-child{
+    color: #1876f2;
+}
+.imp-links{
+    border-bottom: 2px solid black;
+}
+.shortcut a img{
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.shortcut p{
+    margin: 25px;
+    color: #626262;
+    font-weight: 500;
+}
+
+.sidebar-title{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.sidebar-title a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
+.event{
+    display:flex;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.left-event{
+    border-radius: 10px;
+    height: 65px;
+    height: 65px;
+    margin-right: 15px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 o 10px rgb(0, 0, 0.1);
+}
+.event p{
+    font-size: 12px;
+}
+.event a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1876f2;
+}
+.left-event span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1876f2;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 0;
+}
+
+.right-post-container{
+    width: 100%;
+       background-color: #fff;
+       border-radius: 10%;
+       padding: 40px;
+       color: #626262;
+       align-content: space-between; 
+   }
+    .profil-name{
+       display: flex;
+       align-items:center;
+   
+   } 
+   .profil-name img{
+        width: 45px;
+        border-radius:100%;
+        margin-right: 10px;   
+   }
+   .profil-name p{
+       margin-top: -5px;
+       font-weight: 600;
+       color:#626262;
+   }
+   .profil-name small{
+       text-align: justify;
+       font-size: 12px;
+   }
+   .img{
+       width: 100%;
+       height:22px;
+   }
+   .post-input-container{
+       padding-left: 55px;
+       padding-top: 20px;
+   }
+   .post-input-container textarea{
+       width: 100%;
+       border: 0;
+       outline: 0;
+       border-bottom: 1px solid #ccc;
+       background-color: transparent;
+       resize: none;
+   }
+   
+   .add-post-link{
+       display: flex;
+       margin-top: 10px;
+   }
+   .add-post-link a{
+       text-decoration: none;
+       display: flex;
+       align-items: center;
+       color: #626262;
+       margin-right: 30px;
+       font-size: 13px;
+   }
+   .add-post-link a img{
+       width: 20px;
+       margin-right: 10px;
+   
+   }
+   .post-container{
+       width: 100%;
+       background: #fff;
+       border-radius: 10px;
+       padding: 50px;
+       color: #626262;
+       margin: 20px;
+   }
+   .profil-name span{
+       font-size: 13px;
+       color: #9a9a9a;
+   }
+   div p{
+    align-items: flex-end;
+   }
+    
+
